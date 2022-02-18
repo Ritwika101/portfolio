@@ -191,8 +191,8 @@
         font-size: 1.2rem;
         
       }
-      .hidden1 a:hover,.hidden2 a:hover
-      .hidden3 a:hover,.hidden4 a:hover
+      .hidden1 a:hover,.hidden2 a:hover,
+      .hidden3 a:hover,.hidden4 a:hover,
       .hidden5 a:hover{
         opacity:0.5;
       }
