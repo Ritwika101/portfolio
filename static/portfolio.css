@@ -136,16 +136,18 @@
 
       }
       .image-container{
-        width:50%;
+        width:90%;
         height:50%; 
         margin:0 auto; 
+        
       }
       .projects-flex img{
         border-radius: 100%;
         border:0.5rem solid rgb(199, 150, 242);
-        width:100%;
+        width:50%;
         height:90%;
-        margin:0 auto;  
+        margin:0 auto; 
+        margin-left:20%; 
       }
       .hidden1,.hidden2,.hidden3,.hidden4,.hidden5{
         position:relative;
@@ -167,7 +169,7 @@
       .project3:hover .hidden3,.project4:hover .hidden4,
       .project5:hover .hidden5{
         visibility:visible;
-        top:-100%;
+        top:-65%;
       }
       
       .hidden1 h3,.hidden2 h3,.hidden3 h3,
@@ -386,4 +388,3 @@
      }
      
      }
-      
