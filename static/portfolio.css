@@ -353,7 +353,7 @@
       .ex1:hover .hidden-ex1,.ex2:hover .hidden-ex2,
       .ex3:hover .hidden-ex3{
         visibility:visible;
-        top:-70%;
+        top:-85%;
       }
       .hidden-ex1 h3,.hidden-ex2 h3,
       .hidden-ex3 h3{
