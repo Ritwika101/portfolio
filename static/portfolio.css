@@ -173,11 +173,18 @@
       }
       
       .hidden1 h3,.hidden2 h3,.hidden3 h3,
-      .hidden4 h3,.hidden5 h3, .hidden6 h3,
+      .hidden4 h3,.hidden5 h3, .hidden6 h3{
+        font-family:'Nunito',sans-serif;
+        font-weight: 50;
+        
+      }
+
       .hidden-ex1 h3,.hidden-ex2 h3,
       .hidden-ex3 h3{
         font-family:'Nunito',sans-serif;
         font-weight: 50;
+        font-size:1rem;
+        
       }
       .link-project{
         margin-top:30%;
@@ -199,7 +206,7 @@
         opacity:0.5;
       }
       .ex{
-        width: 85%;
+        width: 100%;
         margin:7rem auto;
       }
       .ex-flex{
@@ -209,10 +216,10 @@
 
       }
       .ex1,.ex2,.ex3{
-        width:45%;
+        width:30%;
         padding:1rem;
         background-color: rgb(230, 216, 242);
-        height:20rem;
+        height:15rem;
         border-radius: 10%;
         margin:0 auto;
         margin-top:1rem;
@@ -225,7 +232,7 @@
         width:100%;
         padding:1rem;
         background-color: white;
-        height:20rem;
+        height:15rem;
         border-radius: 10%;
         margin:0 auto;
         margin-top:1rem;
@@ -362,6 +369,7 @@
         margin-bottom:1rem;
         
       }
+      
       .image-container-ex{
         width:80%;
         height:60%; 
