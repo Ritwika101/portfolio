@@ -117,7 +117,7 @@
       .projects-body h1, .ex h1{
         text-align: center;  
       }
-      .project1,.project2,.project3,.project4,.project5,.project6{
+      .project1,.project2,.project3,.project4,.project5,.project6, .project7{
         width:25%;
         padding:1rem;
         background-color: rgb(230, 216, 242);
@@ -149,7 +149,7 @@
         margin:0 auto; 
         margin-left:20%; 
       }
-      .hidden1,.hidden2,.hidden3,.hidden4,.hidden5,.hidden6{
+      .hidden1,.hidden2,.hidden3,.hidden4,.hidden5,.hidden6,.hidden7{
         position:relative;
         visibility:hidden;
         width:100%;
@@ -167,20 +167,22 @@
       }
       .project1:hover .hidden1,.project2:hover .hidden2,
       .project3:hover .hidden3,.project4:hover .hidden4,
-      .project5:hover .hidden5,.project6:hover .hidden6{
+      .project5:hover .hidden5,.project6:hover .hidden6, 
+      .project7:hover .hidden7{
         visibility:visible;
         top:-65%;
       }
       
       .hidden1 h3,.hidden2 h3,.hidden3 h3,
-      .hidden4 h3,.hidden5 h3, .hidden6 h3{
+      .hidden4 h3,.hidden5 h3, .hidden6 h3, 
+      .hidden7 h3{
         font-family:'Nunito',sans-serif;
         font-weight: 50;
         
       }
 
       .hidden-ex1 h3,.hidden-ex2 h3,
-      .hidden-ex3 h3{
+      .hidden-ex3 h3, .hidden-ex4 h3{
         font-family:'Nunito',sans-serif;
         font-weight: 50;
         font-size:1rem;
@@ -191,7 +193,8 @@
       }
       .hidden1 a,.hidden2 a,
       .hidden3 a,.hidden4 a,
-      .hidden5 a,.hidden6 a{
+      .hidden5 a,.hidden6 a, 
+      .hidden7 a{
         text-decoration: none;
         padding:5%;
         border-radius:10%;
@@ -202,7 +205,8 @@
       }
       .hidden1 a:hover,.hidden2 a:hover,
       .hidden3 a:hover,.hidden4 a:hover,
-      .hidden5 a:hover, .hidden6 a:hover{
+      .hidden5 a:hover, .hidden6 a:hover, 
+      .hidden7 a:hover{
         opacity:0.5;
       }
       .ex{
@@ -215,7 +219,7 @@
         flex-wrap: wrap;
 
       }
-      .ex1,.ex2,.ex3{
+      .ex1,.ex2,.ex3, .ex4{
         width:30%;
         padding:1rem;
         background-color: rgb(230, 216, 242);
@@ -226,7 +230,7 @@
         margin-bottom:1rem;
         
       }
-      .hidden-ex1,.hidden-ex2,.hidden-ex3{
+      .hidden-ex1,.hidden-ex2,.hidden-ex3,.hidden-ex4{
         position:relative;
         visibility:hidden;
         width:100%;
@@ -243,7 +247,7 @@
         
       }
       .ex1:hover .hidden-ex1,.ex2:hover .hidden-ex2,
-      .ex3:hover .hidden-ex3{
+      .ex3:hover .hidden-ex3, .ex4:hover .hidden-ex4{
         visibility:visible;
         top:-100%;
       }
@@ -358,7 +362,7 @@
         flex-direction: column;
          
       }
-      .project1,.project2,.project3,.project4,.project5,.project6, .ex1,.ex2,.ex3{
+      .project1,.project2,.project3,.project4,.project5,.project6,.project7, .ex1,.ex2,.ex3,.ex4{
         width:80%;
         padding:1rem;
         background-color: rgb(230, 216, 242);
@@ -378,12 +382,12 @@
         margin-top:3rem;
       }
       .ex1:hover .hidden-ex1,.ex2:hover .hidden-ex2,
-      .ex3:hover .hidden-ex3{
+      .ex3:hover .hidden-ex3, .ex4:hover .hidden-ex4{
         visibility:visible;
         top:-85%;
       }
       .hidden-ex1 h3,.hidden-ex2 h3,
-      .hidden-ex3 h3{
+      .hidden-ex3 h3, .hidden-ex4 h3{
         font-family:'Nunito',sans-serif;
         font-weight: 50;
         font-size:0.85rem;
