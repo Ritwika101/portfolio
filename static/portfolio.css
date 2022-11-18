@@ -2,11 +2,11 @@
       @import url('https://fonts.googleapis.com/css?family=Nunito');
       body{
         font-family:'Days One','Nunito',sans-serif;
-        background-color: rgb(241, 235, 245);
+        background-color: white;
         min-height: 100%;
       }
       header{
-        background-color: rgb(199, 150, 242);
+        background-color: #8AC7DB;
         width: 100%;
         height:8rem;
         margin:0;
@@ -14,13 +14,13 @@
         
       }
       footer{
-        background-color: rgb(199, 150, 242);
+        background-color: #8AC7DB;
         width: 100%;
         height:21rem;
         
       }
       nav{
-        background-color: rgb(199, 150, 242);
+        background-color: #8AC7DB;
         height:8rem;
         width: 100%;
         position:fixed;
@@ -74,7 +74,7 @@
       
       .profile-pic{
         border-radius: 100%;
-        border:0.5rem solid rgb(199, 150, 242);
+        border:0.5rem solid #8AC7DB;
         width:25%;
         height:15rem;
         margin:2rem auto;
@@ -94,7 +94,7 @@
         width:80%;
       }
       .about h3{
-        color:rgb(199, 150, 242);
+        color:#8AC7DB;
         font-weight: 50;
         width:80%;
       }
@@ -120,7 +120,7 @@
       .project1,.project2,.project3,.project4,.project5,.project6, .project7{
         width:25%;
         padding:1rem;
-        background-color: rgb(230, 216, 242);
+        background-color: #f5f5f5;
         height:20rem;
         border-radius: 10%;
         margin:0 auto;
@@ -143,7 +143,7 @@
       }
       .projects-flex img{
         border-radius: 100%;
-        border:0.5rem solid rgb(199, 150, 242);
+        border:0.5rem solid #8AC7DB;
         width:50%;
         height:90%;
         margin:0 auto; 
@@ -198,7 +198,7 @@
         text-decoration: none;
         padding:5%;
         border-radius:10%;
-        background-color: rgb(148, 46, 236);
+        background-color: #8AC7DB;
         color:white;
         font-size: 1.2rem;
         
@@ -222,7 +222,7 @@
       .ex1,.ex2,.ex3, .ex4{
         width:30%;
         padding:1rem;
-        background-color: rgb(230, 216, 242);
+        background-color: #f5f5f5;
         height:15rem;
         border-radius: 10%;
         margin:0 auto;
@@ -306,7 +306,7 @@
       }
       .profile-pic{
         border-radius: 100%;
-        border:0.5rem solid rgb(199, 150, 242);
+        border:0.5rem solid #8AC7DB;
         width:50%;
         height:0%;
         margin:2rem auto;
@@ -338,7 +338,7 @@
 
       }
       nav{
-        background-color: rgb(199, 150, 242);
+        background-color: #8AC7DB;
         height:8rem;
         width: 100%;
         margin-right:0.1rem;
